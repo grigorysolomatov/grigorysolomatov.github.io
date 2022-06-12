@@ -1,6 +1,7 @@
 ---
-layout: page
-title: About
+layout: default
 ---
 
-Something about me. Hello.
+## About
+
+To be written soon!
