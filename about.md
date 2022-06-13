@@ -4,4 +4,4 @@ layout: default
 
 ## About
 
-To be written soon!
+Hmm, where is the content at?
