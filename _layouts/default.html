@@ -15,7 +15,7 @@
     <header>
       <div class="container">        
         <a id="a-title" href="{{ '/' | relative_url }}">
-          <img src="/assets/images/profile.jpg" alt="My photo" id="profile_image"/>
+          <img src="/assets/images/profile.jpg" alt="my photo" id="profile_image"/>
           
           <h1>{{ site.title |q default: site.github.repository_name }}</h1>
         </a>
@@ -29,8 +29,9 @@
         </li>
         {% endfor %}
 
-        <a href="about">About</a>
+        <a href="/">About</a>
         <a href="publications">Publications</a>
+        <a href="cv.pdf">CV</a>
 
         <section id="downloads">
           {% if site.show_downloads %}

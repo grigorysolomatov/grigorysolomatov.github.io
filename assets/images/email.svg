@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="86.654686mm"
+   height="9.3742561mm"
+   viewBox="0 0 86.654686 9.3742561"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="email.svg"
+   inkscape:export-filename="/home/gsol/code/grigorysolomatov.github.io/assets/images/email.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1367407"
+     inkscape:cx="113.95861"
+     inkscape:cy="13.338071"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     height="8.37426mm" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12225"
+       x="-0.010972726"
+       y="-0.13361358"
+       width="1.0219455"
+       height="1.2672272">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.38493576"
+         id="feGaussianBlur12227" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-73.599023,-101.15061)">
+    <g
+       id="g2851"
+       transform="translate(-2.5109299e-5)"
+       style="opacity:0.5;mix-blend-mode:normal;fill:#68b6ff;fill-opacity:1;stroke:none;stroke-opacity:1;filter:url(#filter12225)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;fill:#68b6ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         x="74.405273"
+         y="107.77905"
+         id="text3158-6"><tspan
+           sodipodi:role="line"
+           id="tspan3156-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:monospace;-inkscape-font-specification:monospace;fill:#68b6ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+           x="74.405273"
+           y="107.77905">grigorys93@gmail.com</tspan></text>
+    </g>
+    <g
+       id="g14663">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;fill:#63c0f5;fill-opacity:1;stroke-width:0.264583"
+         x="74.405251"
+         y="107.77905"
+         id="text3158"><tspan
+           sodipodi:role="line"
+           id="tspan3156"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:monospace;-inkscape-font-specification:monospace;fill:#63c0f5;fill-opacity:1;stroke-width:0.264583"
+           x="74.405251"
+           y="107.77905">grigorys93@gmail.com</tspan></text>
+    </g>
+  </g>
+</svg>
