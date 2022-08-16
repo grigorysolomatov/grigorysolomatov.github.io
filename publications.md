@@ -4,7 +4,7 @@ layout: default
 
 ## Publications
 
-- **2022** _Fast Decoding of AG Codes_ \[[arxiv](https://arxiv.org/abs/2203.00940)\]
+- **2022** _Fast Decoding of AG Codes_ \[[IEEE](https://ieeexplore.ieee.org/document/9816033),[arxiv](https://arxiv.org/abs/2203.00940)\]
   <br>Peter Beelen, Johan Rosenkilde, Grigory Solomatov
   <br>Submitted: [IEEE Transactions of Information Theory](https://www.itsoc.org/it-trans)
 
