@@ -1,0 +1,58 @@
+body {
+    /*text-align: center; */
+    justify-content: center;
+    background-color: #111;
+    color: #fff;
+
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18pt;
+
+    padding: 20px;
+}
+h1 {
+    margin: 10px;
+}
+h2 {
+    margin: 10px;
+}
+h3 {
+    margin: 10px;
+}
+.align-left {
+    text-align: left;    
+}
+td:first-child {
+    text-align: center;
+    vertical-align: top;
+}
+tr:first-child th {
+    border-bottom: 3px solid #333
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #fff;
+    border-radius: 0px;
+    padding: 20px;
+    border-collapse: separate; /* Ensure border-spacing works */
+    border-spacing: 0 20px; /* Adjust the second value to increase row spacing */
+}
+
+#profile-image {
+    margin: 0px 20px 20px 20px;
+    border: 3px solid #888;
+    border-radius: 100px;
+}
+.entry {
+    margin: 0px;
+    color: #888;
+}
+.debug {
+    border: 3px solid #f44;
+}
+
+.color-gray {
+    color: #888;
+}
