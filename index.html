@@ -1,19 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Grigory Solomatov</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal website for Grigory Solomatov — applied mathematician, programmer, PhD." />
+  <title>Grigory Solomatov</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">GS</span>
+        <span class="brand-text">Grigory Solomatov</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button small" href="assets/grigory-solomatov-cv.pdf" target="_blank" rel="noreferrer">Open CV</a>
+    </header>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles.css">
-  </head>    
-  <body>
+    <main>
+      <section class="hero section" id="hero"></section>
+      <section class="section two-column" id="about"></section>
+      <section class="section" id="experience"></section>
+      <section class="section" id="skills"></section>
+      <section class="section" id="cv"></section>
+      <section class="section two-column" id="contact"></section>
+    </main>
 
-    <div class="include" from="html/about.html" id="page-home"></div>    
-    <script type="module" src="index.js"></script>
-  </body>
+    <footer class="footer">
+      <span>© <span id="year"></span> Grigory Solomatov</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
