@@ -285,6 +285,7 @@ h3 {
   width: min(260px, 78%);
   aspect-ratio: 1;
   object-fit: cover;
+  object-position: center 18%;
   align-self: center;
   margin: auto 0 24px;
   border-radius: 34px;
