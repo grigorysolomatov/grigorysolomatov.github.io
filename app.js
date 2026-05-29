@@ -47,9 +47,6 @@ function renderAbout() {
     </div>
     <div class="panel card">
       ${site.summary.map(p => `<p>${escapeHtml(p)}</p>`).join("")}
-      <div class="lab" aria-label="Display controls">
-        <button data-density-button>Toggle compact layout</button>
-      </div>
     </div>
   `;
 }
@@ -120,17 +117,9 @@ function renderContact() {
   `;
 }
 
-function enableDisplayControls() {
-  const savedDensity = localStorage.getItem("density") || "comfortable";
+function applyDefaultLayout() {
   document.documentElement.dataset.theme = "ocean";
-  if (savedDensity === "compact") document.documentElement.dataset.density = "compact";
-
-  document.querySelector("[data-density-button]").addEventListener("click", () => {
-    const compact = document.documentElement.dataset.density !== "compact";
-    if (compact) document.documentElement.dataset.density = "compact";
-    else delete document.documentElement.dataset.density;
-    localStorage.setItem("density", compact ? "compact" : "comfortable");
-  });
+  document.documentElement.dataset.density = "compact";
 }
 
 renderHero();
@@ -139,5 +128,5 @@ renderExperience();
 renderSkills();
 renderCv();
 renderContact();
-enableDisplayControls();
+applyDefaultLayout();
 document.querySelector("#year").textContent = new Date().getFullYear();
