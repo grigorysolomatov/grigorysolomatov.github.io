@@ -9,7 +9,7 @@ window.SITE = {
   phone: "+47 924 544 17",
   cvPath: "assets/grigory-solomatov-cv.pdf",
   profileImage: "assets/profile.jpg",
-  tagline: "I turn research problems into practical computational tools — especially in computer vision, image restoration, coding theory, and scientific software.",
+  tagline: "I build practical computational tools for computer vision, image restoration, coding theory, and scientific software.",
   summary: [
     "I'm an applied mathematician with experience in academic research and industry software development.",
     "My work spans computer vision and image restoration, coding theory, scientific computing, and domain-specific modeling tools.",

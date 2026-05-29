@@ -18,7 +18,7 @@ function renderHero() {
   const root = document.querySelector("#hero");
   root.innerHTML = `
     <div class="hero-copy card">
-      <span class="eyebrow">Open to R&amp;D roles in ML, scientific computing, and research software</span>
+      <span class="eyebrow">Open to R&amp;D roles</span>
       <h1>${escapeHtml(site.name)}</h1>
       <p class="lede">${escapeHtml(site.tagline)}</p>
       <div class="actions">
