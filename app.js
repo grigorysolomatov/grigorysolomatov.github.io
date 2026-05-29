@@ -18,7 +18,7 @@ function renderHero() {
   const root = document.querySelector("#hero");
   root.innerHTML = `
     <div class="hero-copy card">
-      <span class="eyebrow">Available for technical roles & collaborations</span>
+      <span class="eyebrow">Open to research, ML, and scientific software roles</span>
       <h1>${escapeHtml(site.name)}</h1>
       <p class="lede">${escapeHtml(site.tagline)}</p>
       <div class="actions">
@@ -47,11 +47,8 @@ function renderAbout() {
     </div>
     <div class="panel card">
       ${site.summary.map(p => `<p>${escapeHtml(p)}</p>`).join("")}
-      <div class="lab" aria-label="Theme lab">
-        <button data-theme-button="linear">Linear violet</button>
-        <button data-theme-button="ocean">Ocean blue</button>
-        <button data-theme-button="ember">Ember orange</button>
-        <button data-density-button>Toggle density</button>
+      <div class="lab" aria-label="Display controls">
+        <button data-density-button>Toggle compact layout</button>
       </div>
     </div>
   `;
@@ -60,7 +57,7 @@ function renderAbout() {
 function renderExperience() {
   document.querySelector("#experience").innerHTML = `
     <div class="section-label">Experience</div>
-    <h2>Research and software work</h2>
+    <h2>Research, engineering, and applied work</h2>
     <div class="timeline">
       ${site.experience.map(item => `
         <article class="timeline-item card">
@@ -78,7 +75,7 @@ function renderExperience() {
 function renderSkills() {
   document.querySelector("#skills").innerHTML = `
     <div class="section-label">Skills</div>
-    <h2>Things I can work with</h2>
+    <h2>Technical toolkit</h2>
     <div class="skills-grid">
       ${site.skills.map(group => `
         <article class="skill-card card">
@@ -95,8 +92,8 @@ function renderSkills() {
 function renderCv() {
   document.querySelector("#cv").innerHTML = `
     <div class="section-label">CV</div>
-    <h2>Latest curriculum vitae</h2>
-    <p class="lede">Embedded PDF preview. If the preview does not load on your device, use the download button.</p>
+    <h2>Latest CV</h2>
+    <p class="lede">The PDF is embedded below. If the preview does not load on your device, open or download it directly.</p>
     <div class="actions" style="margin-bottom: 16px">
       <a class="button primary" href="${site.cvPath}" target="_blank" rel="noreferrer">Open PDF</a>
       <a class="button" href="${site.cvPath}" download>Download</a>
@@ -109,8 +106,8 @@ function renderContact() {
   document.querySelector("#contact").innerHTML = `
     <div>
       <div class="section-label">Contact</div>
-      <h2>Let’s talk</h2>
-      <p class="lede">For research, software, mathematical modeling, or AI-related projects.</p>
+      <h2>Get in touch</h2>
+      <p class="lede">For research roles, scientific software, computer vision, modeling tools, or AI-related projects.</p>
     </div>
     <div class="link-grid">
       ${site.links.map(link => `
@@ -123,20 +120,10 @@ function renderContact() {
   `;
 }
 
-function enableThemeLab() {
-  const savedTheme = localStorage.getItem("theme") || "linear";
+function enableDisplayControls() {
   const savedDensity = localStorage.getItem("density") || "comfortable";
-  if (savedTheme !== "linear") document.documentElement.dataset.theme = savedTheme;
+  document.documentElement.dataset.theme = "ocean";
   if (savedDensity === "compact") document.documentElement.dataset.density = "compact";
-
-  document.querySelectorAll("[data-theme-button]").forEach(button => {
-    button.addEventListener("click", () => {
-      const theme = button.dataset.themeButton;
-      if (theme === "linear") delete document.documentElement.dataset.theme;
-      else document.documentElement.dataset.theme = theme;
-      localStorage.setItem("theme", theme);
-    });
-  });
 
   document.querySelector("[data-density-button]").addEventListener("click", () => {
     const compact = document.documentElement.dataset.density !== "compact";
@@ -152,5 +139,5 @@ renderExperience();
 renderSkills();
 renderCv();
 renderContact();
-enableThemeLab();
+enableDisplayControls();
 document.querySelector("#year").textContent = new Date().getFullYear();
