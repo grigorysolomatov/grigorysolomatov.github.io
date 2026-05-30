@@ -28,7 +28,7 @@ window.SITE = {
     { period: "2015–2016", role: "Software developer intern", place: "Schlumberger", detail: "C++ tools for geoscience modeling workflows." }
   ],
   skills: [
-    { title: "Scientific Python", items: ["Pandas", "NumPy", "SciPy", "PyTorch", "Keras", "OpenCV", "Scikit-Learn", "LiteLLM", "SageMath", "Manim"] },
+    { title: "Scientific Python", items: ["Pandas", "NumPy", "SciPy", "PyTorch", "Keras", "OpenCV", "Scikit-Learn", "LangGraph", "SageMath", "Manim"] },
     { title: "Programming", items: ["JavaScript", "Node.js", "Socket.IO", "React", "MATLAB", "Bash", "C#", "C++", "Rust", "SQL"] },
     { title: "Tools", items: ["Git", "Linux", "Docker", "LaTeX", "Emacs"] },
     { title: "Mathematics", items: ["Linear algebra", "Optimization", "Discrete mathematics", "Graph theory", "Computer algebra", "Coding theory", "Computational complexity"] },
