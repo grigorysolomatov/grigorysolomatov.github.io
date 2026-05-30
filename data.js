@@ -7,7 +7,7 @@ window.SITE = {
   location: "Norway / Israel",
   email: "grigorys93@gmail.com",
   phone: "+47 924 544 17",
-  cvPath: "assets/grigory-solomatov-cv.pdf",
+  cvPath: "assets/grigory-solomatov-cv.pdf?v=20260530-langgraph",
   profileImage: "assets/profile.jpg",
   tagline: "I build practical computational tools for computer vision, image restoration, coding theory, and scientific software.",
   summary: [
@@ -39,7 +39,7 @@ window.SITE = {
   ],
   links: [
     { label: "Email", href: "mailto:grigorys93@gmail.com", note: "Best for direct contact" },
-    { label: "CV", href: "assets/grigory-solomatov-cv.pdf", note: "Latest PDF version" },
+    { label: "CV", href: "assets/grigory-solomatov-cv.pdf?v=20260530-langgraph", note: "Latest PDF version" },
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=rWoDG_sAAAAJ&hl=no&oi=sra", note: "Publications and citations" },
     { label: "GitHub", href: "https://github.com/grigorysolomatov", note: "Code and experiments" }
   ]
